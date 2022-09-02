@@ -78,8 +78,8 @@ namespace CallGraphAPI
 
             if (authResult != null)
             {
-                // Check to see if the sign-in is from a non-subscribed tenant (this is Microsoft - change this for a tenant that you want to exclude)
-                if (authResult.TenantId == "72f988bf-86f1-41af-91ab-2d7cd011db47")
+                // Check to see if the sign-in is from a non-subscribed tenant - change this for a tenant that you want to exclude)
+                if (authResult.TenantId == "<tenant ID")
                 {
                     ResultText.Text = "The tenant does not have a subscription to this service";
                     DisplayBasicTokenInfo(authResult);
