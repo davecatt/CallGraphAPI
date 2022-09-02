@@ -1,4 +1,4 @@
-# CallGraphAPI - Used for SC-300 to deomnstrate API permissions and scopes.
+# CallGraphAPI - Used for SC-300 to demonstrate API permissions and scopes and application roles.
 
 Setup:
 Create an application registration called CallGraphAPI in an Azure tenant, with multi-tenant authentication and a Mobile and Desktop Applications redirect URL of http://localhost
