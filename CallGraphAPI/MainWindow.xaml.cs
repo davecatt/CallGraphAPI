@@ -28,7 +28,7 @@ namespace CallGraphAPI
         string graphAPIEndpoint = "https://graph.microsoft.com/v1.0/me";
 
         //Set the scope for API call
-        string[] scopes = new string[] { "user.read", "api://a2b5731a-397e-4a66-9b8f-7ec5989e3bb4/World.Domination" };
+        string[] scopes = new string[] { "user.read" };
         //string[] scopes = new string[] { "user.read", "People.Read.All" };
         public MainWindow()
         {
